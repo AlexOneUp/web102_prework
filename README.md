@@ -23,14 +23,11 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='/Peek 2023-01-01 22-00.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='/Peek 2023-01-01 22-00.gif' title='Web Prework Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with ... 
+[peek](https://github.com/phw/peek) for Linux.
 
 ## Notes
 
@@ -38,7 +35,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Alex Ruan]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
