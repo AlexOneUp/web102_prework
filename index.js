@@ -44,8 +44,7 @@ function addGamesToPage(games) {
             <p>${game.description}</p>
             <p>Backers: ${game.backers}</p>
             <p>Pledged: ${game.pledged}</p>
-            <p>Goal: ${games.goal}</p>
-        `
+            `
         
         
         
@@ -205,6 +204,8 @@ Currently, ${allUnfundedGames} ${allUnfundedGames == 1 ? `game remains`:`games r
 let challenge6 = `<p>${displayStr}</p>`;
 descriptionContainer.innerHTML += challenge6;
 
+
+
 /************************************************************************************
  * Challenge 7: Select & display the top 2 games
  * Skills used: spread operator, destructuring, template literals, sort 
@@ -218,7 +219,19 @@ const sortedGames =  GAMES_JSON.sort( (item1, item2) => {
 });
 
 // use destructuring and the spread operator to grab the first and second games
+let [first, second, ...rest] = sortedGames;
+console.log(first)
+console.log(second)
+console.log(rest)
+
+// Challenge 7 Component 3
+// const numbers = [1, 2, 3, 4, 5, 6];
+// const [one, two, ...rest] = numbers;
+// console.log(rest)
 
 // create a new element to hold the name of the top pledge game, then append it to the correct element
+let firstText = `${first.name}`;
+firstGameContainer.innerHTML += `<p>${firstText}</p>`
 
 // do the same for the runner up item
+secondGameContainer.innerHTML += `<p>${second.name}</p>`
