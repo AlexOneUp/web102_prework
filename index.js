@@ -59,14 +59,12 @@ function addGamesToPage(games) {
         
         // append the game to the games-container
         gamesContainer.append(createDiv);
-        console.log(games.length);
+
 
     }
   
 }
-let x = 10;
-let y = 4
-console.log("The answer to ${x} + ${y} is ${x + y}");
+
 // call the function we just defined using the correct variable
 // later, we'll call this function using a different list of games
 addGamesToPage(GAMES_JSON);
