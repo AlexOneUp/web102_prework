@@ -26,7 +26,7 @@ Here's a walkthrough of implemented features:
 <img src='/Peek 2023-01-01 22-00.gif' title='Web Prework Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ... 
+GIF created with 
 [peek](https://github.com/phw/peek) for Linux.
 
 ## Notes
