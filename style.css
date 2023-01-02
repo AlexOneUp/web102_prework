@@ -19,14 +19,12 @@ body {
     margin-top: -10px;
 }
 
-.stats-container:hover {
+.stats-container {
     display: flex;
-    align-items: stretch;
-    cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    
 }
 
-.stats-card {
+    .stats-card {
     background-color: #a8b0bc;
     border-radius: 7px;
     padding: 1%;
@@ -75,4 +73,10 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+.stats-container:hover {   
+    align-items: stretch;
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
